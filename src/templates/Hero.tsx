@@ -19,7 +19,7 @@ const Hero = () => (
     <Section yPadding="pt-20 pb-32">
       <HeroOneButton
         title={<>Tech Solutions, Redefined</>}
-        description="Trusted by the world's best - used by the world's best."
+        description="Invest in tech infrastructure that will transform your business. Abbas Tech offers cutting-edge solutions tailored to meet the unique demands of both individuals and businesses."
         button={<></>}
       />
     </Section>
