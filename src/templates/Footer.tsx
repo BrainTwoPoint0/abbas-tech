@@ -6,13 +6,7 @@ import { Logo } from './Logo';
 const Footer = () => (
   <Background color="bg-gray-100">
     <Section>
-      <CenteredFooter
-        logo={<Logo />}
-        iconList={
-          <>
-          </>
-        }
-      >
+      <CenteredFooter logo={<Logo />} iconList={<></>}>
         <></>
       </CenteredFooter>
     </Section>
