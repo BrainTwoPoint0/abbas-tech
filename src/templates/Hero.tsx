@@ -8,7 +8,15 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 const Hero = () => (
   <Background color="bg-gray-100">
     <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<img src='assets/images/abbas-tech.png' className='h-20' />}>
+      <NavbarTwoColumns
+        logo={
+          <img
+            src="assets/images/abbas-tech.png"
+            className="h-20"
+            alt="Abbas Tech Logo"
+          />
+        }
+      >
         <li>
           <Link href="/">Get in touch today for a free consultation</Link>
         </li>
