@@ -10,8 +10,8 @@ const Base = () => (
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Hero />
     <VerticalFeatures />
-    <CalendlyEmbed url="https://calendly.com/abbastech" />
     <Footer />
+    <CalendlyEmbed url="https://calendly.com/abbastech" />
   </div>
 );
 
