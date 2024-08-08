@@ -4,14 +4,13 @@ import { Background } from '../background/Background';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
 
 const Hero = () => (
   <Background color="bg-gray-100">
     <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<Logo xl />}>
+      <NavbarTwoColumns logo={<img src='assets/images/abbas-tech.png' className='h-20' />}>
         <li>
-          <Link href="mailto:abbas.a.kazmi@outlook.com">Contact</Link>
+          <Link href="/">Get in touch today for a free consultation</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
