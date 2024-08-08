@@ -16,7 +16,6 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
       </ul>
     </nav>
 
-
     <style jsx>
       {`
         .navbar :global(li) {
